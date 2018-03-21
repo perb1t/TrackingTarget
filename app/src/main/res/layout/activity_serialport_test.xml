@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/et_cmd_2_serial"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/bt_send"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SEND" />
+
+
+    <TextView
+        android:id="@+id/tv_receive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:text="RECEIVE:"
+        android:textColor="#000000" />
+
+</LinearLayout>
